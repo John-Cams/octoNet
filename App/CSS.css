@@ -1,0 +1,68 @@
+body{
+	background-color: #0C1214;
+}
+
+h1{
+	color: #006494;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	color:#247ba0;
+	font-family: sans-serif;
+	display: inline;
+	position: relative;
+	up: 50px;
+}
+
+
+p{
+	color:#1B98E0;
+	font-family: Bookman, URW Bookman L, serif;
+	font-size: 20px;
+}
+
+
+a.Youtube{
+	display: inline;
+}
+
+a.Instagram{
+	display: inline;
+}
+
+a.NavBar{
+	color:#ffffff;
+  	display: block;
+  	padding: 8px;
+  	background-color: #dddddd;
+}
+
+div.flex-container{
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+	display: inline;
+	float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
